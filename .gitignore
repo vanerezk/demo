@@ -1,0 +1,8 @@
+node_modules
+dist
+coverage
+data/
+.env
+docker-compose.override.yml
+*.log
+.sandbox/
