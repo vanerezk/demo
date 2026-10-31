@@ -1,0 +1,693 @@
+{
+  "supplier": "Halden & Rowe Fine Bands, Inc.",
+  "generated_at": "2026-10-28T06:00:00Z",
+  "currency": "USD",
+  "products": [
+    {
+      "sku": "HR-CD4-14Y",
+      "parent_sku": "HR-CD4",
+      "title": "Halden & Rowe Classic Dome Wedding Band 4mm",
+      "metal": "yellow gold",
+      "karat": 14,
+      "width_mm": 4,
+      "sizes": [
+        4,
+        4.5,
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10
+      ],
+      "price_usd": 389.0,
+      "stock": 6,
+      "images": [
+        "images/HR-CD4-14Y_main.jpg",
+        "images/HR-CD4-14Y_side.jpg"
+      ],
+      "brand": "Halden & Rowe"
+    },
+    {
+      "sku": "HR-CD4-18Y",
+      "parent_sku": "HR-CD4",
+      "title": "Halden & Rowe Classic Dome Wedding Band 4mm",
+      "metal": "yellow gold",
+      "karat": 18,
+      "width_mm": 4,
+      "sizes": [
+        4,
+        4.5,
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10
+      ],
+      "price_usd": 574.0,
+      "stock": 4,
+      "images": [
+        "images/HR-CD4-18Y_main.jpg"
+      ],
+      "brand": "Halden & Rowe"
+    },
+    {
+      "sku": "HR-CD4-PT",
+      "parent_sku": "HR-CD4",
+      "title": "Halden & Rowe Classic Dome Wedding Band 4mm",
+      "metal": "platinum",
+      "karat": null,
+      "width_mm": 4,
+      "sizes": [
+        4,
+        4.5,
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10
+      ],
+      "price_usd": 729.0,
+      "stock": 2,
+      "images": [
+        "images/HR-CD4-PT_main.jpg"
+      ],
+      "brand": "Halden & Rowe"
+    },
+    {
+      "sku": "HR-CF5-14Y",
+      "parent_sku": "HR-CF5",
+      "title": "Comfort Fit Flat Band 5mm by Halden & Rowe",
+      "metal": "yellow gold",
+      "karat": 14,
+      "width_mm": 5,
+      "sizes": [
+        4,
+        4.5,
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5,
+        11
+      ],
+      "price_usd": 468.0,
+      "stock": 5,
+      "images": [
+        "images/HR-CF5-14Y_main.jpg",
+        "images/HR-CF5-14Y_side.jpg"
+      ],
+      "brand": "Halden & Rowe"
+    },
+    {
+      "sku": "HR-CF5-18Y",
+      "parent_sku": "HR-CF5",
+      "title": "Comfort Fit Flat Band 5mm by Halden & Rowe",
+      "metal": "yellow gold",
+      "karat": 18,
+      "width_mm": 5,
+      "sizes": [
+        4,
+        4.5,
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5,
+        11
+      ],
+      "price_usd": 689.0,
+      "stock": 3,
+      "images": [
+        "images/HR-CF5-18Y_main.jpg"
+      ],
+      "brand": "Halden & Rowe"
+    },
+    {
+      "sku": "HR-CF5-PT",
+      "parent_sku": "HR-CF5",
+      "title": "Comfort Fit Flat Band 5mm by Halden & Rowe",
+      "metal": "platinum",
+      "karat": null,
+      "width_mm": 5,
+      "sizes": [
+        4,
+        4.5,
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5,
+        11
+      ],
+      "price_usd": 912.0,
+      "stock": 0,
+      "images": [
+        "images/HR-CF5-PT_main.jpg"
+      ],
+      "brand": "Halden & Rowe"
+    },
+    {
+      "sku": "HR-KE25-14W",
+      "parent_sku": "HR-KE25",
+      "title": "Knife Edge Band 2.5mm",
+      "metal": "white gold",
+      "karat": 14,
+      "width_mm": 2.5,
+      "sizes": [
+        4,
+        4.5,
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10
+      ],
+      "price_usd": 312.0,
+      "stock": 8,
+      "images": [
+        "images/HR-KE25-14W_main.jpg",
+        "images/HR-KE25-14W_side.jpg"
+      ],
+      "brand": "Halden & Rowe"
+    },
+    {
+      "sku": "HR-KE25-18W",
+      "parent_sku": "HR-KE25",
+      "title": "Knife Edge Band 2.5mm",
+      "metal": "white gold",
+      "karat": 18,
+      "width_mm": 2.5,
+      "sizes": [
+        4,
+        4.5,
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10
+      ],
+      "price_usd": 455.0,
+      "stock": 5,
+      "images": [
+        "images/HR-KE25-18W_main.jpg"
+      ],
+      "brand": "Halden & Rowe"
+    },
+    {
+      "sku": "HR-MG3-18Y",
+      "parent_sku": "HR-MG3",
+      "title": "Milgrain Vintage Band 3mm - Halden & Rowe Heritage",
+      "metal": "yellow gold",
+      "karat": 18,
+      "width_mm": 3,
+      "sizes": [
+        4,
+        4.5,
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10
+      ],
+      "price_usd": 498.0,
+      "stock": 4,
+      "images": [
+        "images/HR-MG3-18Y_main.jpg",
+        "images/HR-MG3-18Y_side.jpg"
+      ],
+      "brand": "Halden & Rowe"
+    },
+    {
+      "sku": "HR-MG3-PT",
+      "parent_sku": "HR-MG3",
+      "title": "Milgrain Vintage Band 3mm - Halden & Rowe Heritage",
+      "metal": "platinum",
+      "karat": null,
+      "width_mm": 3,
+      "sizes": [
+        4,
+        4.5,
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10
+      ],
+      "price_usd": 645.0,
+      "stock": 2,
+      "images": [
+        "images/HR-MG3-PT_main.jpg"
+      ],
+      "brand": "Halden & Rowe"
+    },
+    {
+      "sku": "HR-BS6-14Y",
+      "parent_sku": "HR-BS6",
+      "title": "Brushed Satin Flat Men's Band 6mm",
+      "metal": "yellow gold",
+      "karat": 14,
+      "width_mm": 6,
+      "sizes": [
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        11.5,
+        12,
+        12.5,
+        13
+      ],
+      "price_usd": 598.0,
+      "stock": 4,
+      "images": [
+        "images/HR-BS6-14Y_main.jpg",
+        "images/HR-BS6-14Y_side.jpg"
+      ],
+      "brand": "Halden & Rowe"
+    },
+    {
+      "sku": "HR-BS6-18Y",
+      "parent_sku": "HR-BS6",
+      "title": "Brushed Satin Flat Men's Band 6mm",
+      "metal": "yellow gold",
+      "karat": 18,
+      "width_mm": 6,
+      "sizes": [
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        11.5,
+        12,
+        12.5,
+        13
+      ],
+      "price_usd": 879.0,
+      "stock": 2,
+      "images": [
+        "images/HR-BS6-18Y_main.jpg"
+      ],
+      "brand": "Halden & Rowe"
+    },
+    {
+      "sku": "HR-BS6-PT",
+      "parent_sku": "HR-BS6",
+      "title": "Brushed Satin Flat Men's Band 6mm",
+      "metal": "platinum",
+      "karat": null,
+      "width_mm": 6,
+      "sizes": [
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        11.5,
+        12,
+        12.5,
+        13
+      ],
+      "price_usd": 1149.0,
+      "stock": 1,
+      "images": [
+        "images/HR-BS6-PT_main.jpg"
+      ],
+      "brand": "Halden & Rowe"
+    },
+    {
+      "sku": "HR-HM5-14R",
+      "parent_sku": "HR-HM5",
+      "title": "Hammered Finish Band 5mm",
+      "metal": "rose gold",
+      "karat": 14,
+      "width_mm": 5,
+      "sizes": [
+        4,
+        4.5,
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10
+      ],
+      "price_usd": 455.0,
+      "stock": 3,
+      "images": [
+        "images/HR-HM5-14R_main.jpg",
+        "images/HR-HM5-14R_side.jpg"
+      ],
+      "brand": "Halden & Rowe"
+    },
+    {
+      "sku": "HR-HM5-18R",
+      "parent_sku": "HR-HM5",
+      "title": "Hammered Finish Band 5mm",
+      "metal": "rose gold",
+      "karat": 18,
+      "width_mm": 5,
+      "sizes": [
+        4,
+        4.5,
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10
+      ],
+      "price_usd": 664.0,
+      "stock": 2,
+      "images": [
+        "images/HR-HM5-18R_main.jpg"
+      ],
+      "brand": "Halden & Rowe"
+    },
+    {
+      "sku": "HR-ET25-18W-050",
+      "parent_sku": "HR-ET25",
+      "title": "Diamond Eternity Band 2.5mm",
+      "metal": "white gold",
+      "karat": 18,
+      "width_mm": 2.5,
+      "sizes": [
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8
+      ],
+      "price_usd": 1290.0,
+      "stock": 2,
+      "images": [
+        "images/HR-ET25-18W-050_main.jpg",
+        "images/HR-ET25-18W-050_side.jpg"
+      ],
+      "brand": "Halden & Rowe",
+      "diamond": {
+        "carat_total": 0.5,
+        "color": "G",
+        "clarity": "VS1"
+      }
+    },
+    {
+      "sku": "HR-ET25-18W-100",
+      "parent_sku": "HR-ET25",
+      "title": "Diamond Eternity Band 2.5mm",
+      "metal": "white gold",
+      "karat": 18,
+      "width_mm": 2.5,
+      "sizes": [
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8
+      ],
+      "price_usd": 2140.0,
+      "stock": 1,
+      "images": [
+        "images/HR-ET25-18W-100_main.jpg"
+      ],
+      "brand": "Halden & Rowe",
+      "diamond": {
+        "carat_total": 1.0,
+        "color": "G",
+        "clarity": "VS1"
+      }
+    },
+    {
+      "sku": "HR-ET25-PT-050",
+      "parent_sku": "HR-ET25",
+      "title": "Diamond Eternity Band 2.5mm",
+      "metal": "platinum",
+      "karat": null,
+      "width_mm": 2.5,
+      "sizes": [
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8
+      ],
+      "price_usd": 1480.0,
+      "stock": 1,
+      "images": [
+        "images/HR-ET25-PT-050_main.jpg"
+      ],
+      "brand": "Halden & Rowe",
+      "diamond": {
+        "carat_total": 0.5,
+        "color": "G",
+        "clarity": "VS1"
+      }
+    },
+    {
+      "sku": "HR-HE3-14W",
+      "parent_sku": "HR-HE3",
+      "title": "Half Eternity Diamond Band 3mm",
+      "metal": "white gold",
+      "karat": 14,
+      "width_mm": 3,
+      "sizes": [
+        4,
+        4.5,
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10
+      ],
+      "price_usd": 689.0,
+      "stock": 3,
+      "images": [
+        "images/HR-HE3-14W_main.jpg",
+        "images/HR-HE3-14W_side.jpg"
+      ],
+      "brand": "Halden & Rowe",
+      "diamond": {
+        "carat_total": 0.25,
+        "color": "H",
+        "clarity": "SI1"
+      }
+    },
+    {
+      "sku": "HR-HE3-18W",
+      "parent_sku": "HR-HE3",
+      "title": "Half Eternity Diamond Band 3mm",
+      "metal": "white gold",
+      "karat": 18,
+      "width_mm": 3,
+      "sizes": [
+        4,
+        4.5,
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10
+      ],
+      "price_usd": 869.0,
+      "stock": 2,
+      "images": [
+        "images/HR-HE3-18W_main.jpg"
+      ],
+      "brand": "Halden & Rowe",
+      "diamond": {
+        "carat_total": 0.25,
+        "color": "H",
+        "clarity": "SI1"
+      }
+    },
+    {
+      "sku": "HR-BV7-14Y",
+      "parent_sku": "HR-BV7",
+      "title": "Beveled Edge Men's Band 7mm",
+      "metal": "yellow gold",
+      "karat": 14,
+      "width_mm": 7,
+      "sizes": [
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        11.5,
+        12,
+        12.5,
+        13
+      ],
+      "price_usd": 742.0,
+      "stock": 2,
+      "images": [
+        "images/HR-BV7-14Y_main.jpg",
+        "images/HR-BV7-14Y_side.jpg"
+      ],
+      "brand": "Halden & Rowe"
+    },
+    {
+      "sku": "HR-BV7-PT",
+      "parent_sku": "HR-BV7",
+      "title": "Beveled Edge Men's Band 7mm",
+      "metal": "platinum",
+      "karat": null,
+      "width_mm": 7,
+      "sizes": [
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        11.5,
+        12,
+        12.5,
+        13
+      ],
+      "price_usd": 1389.0,
+      "stock": 1,
+      "images": [
+        "images/HR-BV7-PT_main.jpg"
+      ],
+      "brand": "Halden & Rowe"
+    },
+    {
+      "sku": "HR-TT6-SS",
+      "title": "Two-Tone Sterling Silver Band 6mm",
+      "metal": "sterling silver",
+      "karat": null,
+      "width_mm": 6,
+      "sizes": [
+        4,
+        4.5,
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10
+      ],
+      "price_usd": 0,
+      "stock": 10,
+      "images": [],
+      "brand": "Halden & Rowe"
+    }
+  ]
+}
