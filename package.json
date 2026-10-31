@@ -10,6 +10,7 @@
   "scripts": {
     "cli": "tsx src/cli.ts",
     "catalog:preview": "tsx src/cli.ts catalog:preview",
+    "mock:prestashop": "tsx src/mock/main.ts",
     "ps:ping": "tsx src/cli.ts ps:ping",
     "ps:demo-product": "tsx src/cli.ts ps:demo-product",
     "setup:webservice": "./scripts/setup-webservice.sh",
