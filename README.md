@@ -2,9 +2,25 @@
 
 Integra catálogos de proveedores externos en una tienda PrestaShop 1.7 como productos nativos.
 
-> 🚧 En construcción (fase 1 de 5). La documentación completa llegará en la fase 5.
+> 🚧 En construcción (fase 2 de 5). La documentación completa llegará en la fase 5.
 
-## Arranque rápido
+## Probar sin Docker (simulador)
+
+El repo incluye un simulador del Webservice de PrestaShop 1.7.8 que reproduce su contrato
+(autenticación, JSON/XML, códigos de error, campos de solo lectura y sus particularidades),
+con un escaparate mínimo para ver las fichas. Solo necesita Node 20+.
+
+```bash
+cp .env.example .env              # pon una PS_WEBSERVICE_KEY de 32 caracteres (ver abajo)
+npm ci
+npm run mock:prestashop           # deja esta terminal abierta (http://localhost:8080)
+npm run ps:ping                   # en otra terminal
+```
+
+Sin tienda de ningún tipo, `npm run catalog:preview` muestra cómo quedará el catálogo de los
+proveedores (nombres, referencias propias, combinaciones y PVP) y qué registros se descartan.
+
+## Arranque rápido con Docker (PrestaShop real)
 
 ```bash
 cp .env.example .env   # y rellena PS_WEBSERVICE_KEY (ver abajo)
