@@ -9,7 +9,11 @@ import {
   productUrl,
   RESOURCES,
 } from './prestashop/index.js';
+import { InMemoryReferenceAllocator } from './domain/reference.js';
+import { createPriceCalculator } from './pricing/index.js';
 import { logger } from './shared/logger.js';
+import { createSuppliers, selectSuppliers } from './suppliers/registry.js';
+import { prepareCatalog } from './sync/prepare.js';
 
 type Command = (args: string[]) => Promise<void>;
 
@@ -69,7 +73,44 @@ const psDemoProduct: Command = async (args) => {
   );
 };
 
+const eur = new Intl.NumberFormat('es-ES', { style: 'currency', currency: 'EUR' });
+
+/** Muestra cómo quedaría el catálogo en la tienda (nombres, referencias, PVP), sin tocar nada. */
+const catalogPreview: Command = async (args) => {
+  const { values } = parseArgs({ args, options: { supplier: { type: 'string', default: 'all' } } });
+  const pricing = createPriceCalculator();
+  const references = new InMemoryReferenceAllocator();
+  for (const adapter of selectSuppliers(createSuppliers(), values.supplier)) {
+    const { listings, rejected } = await prepareCatalog(
+      adapter,
+      { pricing, references, referencePrefix: process.env.REFERENCE_PREFIX ?? 'STR-AL' },
+      logger,
+    );
+    console.log(`\n${adapter.displayName} · margen ${pricing.marginFor(adapter.id)} %`);
+    console.table(
+      listings.map((l) => {
+        const metals = [...new Set(l.combinations.map((c) => c.attributes.Metal))];
+        const prices = metals.map((m) => {
+          const min = Math.min(
+            ...l.combinations.filter((c) => c.attributes.Metal === m).map((c) => c.gross),
+          );
+          return `${m}: ${eur.format(min)}`;
+        });
+        return {
+          'Ref. tienda': l.reference,
+          'Ref. proveedor': l.supplierRef,
+          Nombre: l.name,
+          Combinaciones: l.combinations.length,
+          'PVP desde': prices.join(' | '),
+        };
+      }),
+    );
+    for (const r of rejected) console.log(`  ✗ ${r.supplierRef}: ${r.reason}`);
+  }
+};
+
 const commands: Record<string, Command> = {
+  'catalog:preview': catalogPreview,
   'ps:ping': psPing,
   'ps:demo-product': psDemoProduct,
 };
